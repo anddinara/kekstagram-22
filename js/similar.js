@@ -30,4 +30,6 @@ const createDescriptionPhoto = () => {
   };
 };
 
-const createDescriptionPhotos = new Array(25).fill(null).map(() => createDescriptionPhoto());
+const createDescriptionPhotos = () => new Array(25).fill(null).map(() => createDescriptionPhoto());
+
+export {createDescriptionPhotos};

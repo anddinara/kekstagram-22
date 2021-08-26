@@ -1,2 +1,4 @@
 import './util.js';
-import './simular.js';
+import './similar.js';
+import './photo.js';
+import './big-photo.js';
